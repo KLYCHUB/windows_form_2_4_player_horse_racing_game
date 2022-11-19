@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C7B6624B-0338-4DB9-AC39-3F0B5755044A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>at_yarisi</RootNamespace>
+    <AssemblyName>at_yarisi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngfind.com-horse-png-595479.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horse_racing.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pixel_art_grass_image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\horse_racing1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pixel_art_grass_image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finishing_line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finishing_line1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5ed26b954fb8e0e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-pixel-art-pixelation-side-view-5ad86da1ee9cc4.8119380615241332819774.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5ed26b954fb8e0e1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-grass-background-2036900.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d8hedyc-f8b2b324-d7c2-4019-91cd-cc5ed6b3eb69.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kfUmn2y.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kfUmn2y1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-511324338-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass-background-1v-2560x1700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass-background-1v-2560x17001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background__r172093591.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7682-v2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kfUmn2y2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5cvg5xl4xg7l.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simon-sanchez-madera-tilepreview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\simon-sanchez-madera-tilepreview1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5cvg5xl4xg7l1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finishing_line2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark-horse-animals-black-wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1186333.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark-horse-animals-black-wallpaper1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d8hedyc-f8b2b324-d7c2-4019-91cd-cc5ed6b3eb691.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-grass-background-20369001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass-background-1v-2560x17002.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pixel_art_grass_image2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finishing_line3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8c5947aca39131735798134c323ba1d4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-511324338-612x6121.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cb853ddd62b115f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-grass-field-background-soccer-football-sports-lawn-pattern-texture-close-up-image-139976497.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-grass-texture-sport-background-detailed-pattern-green-soccer-field-football-field-grass-lawn-texture-green-lawn-182579481.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-grass-field-background-soccer-football-sports-lawn-pattern-texture-close-up-image-139976279.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-grass-background-20369002.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_25829597_nzueNmnDHuAVVRPirrVdeeaLNmQqZqVD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\post-223-0-94231600-1485895473.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

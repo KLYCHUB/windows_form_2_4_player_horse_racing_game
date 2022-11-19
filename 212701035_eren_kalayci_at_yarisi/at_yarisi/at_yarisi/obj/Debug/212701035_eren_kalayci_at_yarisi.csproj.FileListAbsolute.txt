@@ -1,0 +1,12 @@
+C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\at_yarisi\at_yarisi\bin\Debug\at_yarisi.exe.config
+C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\at_yarisi\at_yarisi\bin\Debug\at_yarisi.exe
+C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\at_yarisi\at_yarisi\bin\Debug\at_yarisi.pdb
+C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\at_yarisi\at_yarisi\obj\Debug\212701035_eren_kalayci_at_yarisi.csproj.AssemblyReference.cache
+C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\at_yarisi\at_yarisi\obj\Debug\212701035_eren_kalayci_at_yarisi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\at_yarisi\at_yarisi\obj\Debug\at_yarisi.Properties.Resources.resources
+C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\at_yarisi\at_yarisi\obj\Debug\212701035_eren_kalayci_at_yarisi.csproj.GenerateResource.cache
+C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\at_yarisi\at_yarisi\obj\Debug\212701035_eren_kalayci_at_yarisi.csproj.CoreCompileInputs.cache
+C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\at_yarisi\at_yarisi\obj\Debug\at_yarisi.exe
+C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\at_yarisi\at_yarisi\obj\Debug\at_yarisi.pdb
+C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\at_yarisi\at_yarisi\obj\Debug\at_yarisi.Form1_21701035.resources
+C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\at_yarisi\at_yarisi\obj\Debug\at_yarisi.Form2_21701035.resources
