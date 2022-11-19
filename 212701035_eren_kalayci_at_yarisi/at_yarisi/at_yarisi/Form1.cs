@@ -23,7 +23,7 @@ namespace at_yarisi
         }
 
         //SoundPlayer den Player_212701035 nesnesi ürettik
-        SoundPlayer Player_212701035 = new SoundPlayer();
+        //SoundPlayer Player_212701035 = new SoundPlayer();
 
         //Herhangi bir oyuncu kazanınca kazanma ekranında tüm ouncuların resmini silme fonksiyonu
         void oyunSonu()
@@ -148,10 +148,10 @@ namespace at_yarisi
         {
             //ürettiğimiz nesneyi kullanarak
             //oynatacağımız müziğin konumunu belirtiyoruz
-            this.Player_212701035.SoundLocation = @"C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\sound\at-kosma-sesi-nal-sesi-asmr-horse-running.wav";
+            //this.Player_212701035.SoundLocation = @"C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\sound\at-kosma-sesi-nal-sesi-asmr-horse-running.wav";
 
             //müziği sonsuz döngüye sokarak oynatıyoruz
-            this.Player_212701035.PlayLooping();
+            //this.Player_212701035.PlayLooping();
 
             //başla butonuna basınca 1. buton aktifleşti
             button1_21701035.Enabled = true;

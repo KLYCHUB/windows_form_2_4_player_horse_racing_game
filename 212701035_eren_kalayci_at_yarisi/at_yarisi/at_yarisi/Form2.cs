@@ -15,7 +15,7 @@ namespace at_yarisi
     public partial class Form2_21701035 : Form
     {
         //SoundPlayer den Player_212701035 nesnesi ürettik
-        private SoundPlayer Player_212701035 = new SoundPlayer();
+        //private SoundPlayer Player_212701035 = new SoundPlayer();
         public Form2_21701035()
         {
             InitializeComponent();
@@ -28,7 +28,7 @@ namespace at_yarisi
             try
             {
                 //Burada form açılır açılmaz çalan müziği tuşa basılınca durdurduk
-                this.Player_212701035.Stop();
+                //this.Player_212701035.Stop();
 
                 //diğer forma veri göndermek için değişken oluşturduk ve
                 //Bunu burda oluşturduğumuz form1_212701035 nesnesinin parametresine vereceğiz ki,
@@ -70,10 +70,10 @@ namespace at_yarisi
             button2_21701035.Enabled = false;
 
             //Player_212701035 nesnesine çalacağı müziğin yolunu belirttik
-            this.Player_212701035.SoundLocation = @"C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\sound\horse.wav";
+            //this.Player_212701035.SoundLocation = @"C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\sound\horse.wav";
 
             //çalan müziği döküye soktuk
-            this.Player_212701035.PlayLooping();
+            //this.Player_212701035.PlayLooping();
         } 
 
         private void Form2_FormClosing(object sender, FormClosingEventArgs e)
@@ -111,17 +111,17 @@ namespace at_yarisi
         {
             //reset tuşuna basınca müziği tekrar başlatır
             //Player_212701035 nesnesine çalacağı müziğin yolunu belirttik
-            this.Player_212701035.SoundLocation = @"C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\sound\horse.wav";
+            //this.Player_212701035.SoundLocation = @"C:\Users\Eren\Desktop\212701035_eren_kalayci_at_yarisi\sound\horse.wav";
 
             //Müziği başlatır
-            this.Player_212701035.Play();
+            //this.Player_212701035.Play();
           
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             //Stop tuşu ve müziği durduru
-            this.Player_212701035.Stop();
+            //this.Player_212701035.Stop();
 
             //ilk defa stopyaptıktan sonra reset tuşu çalışır
             button2_21701035.Visible = true;
